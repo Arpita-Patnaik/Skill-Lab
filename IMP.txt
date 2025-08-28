@@ -1,0 +1,21 @@
+# Commands to push folder to GitHub
+
+git init
+git remote add origin https://github.com/your-username/your-repo.git
+git status
+git add .
+git commit -m "Initial commit"
+git branch -M main
+git push -u origin main
+
+# Commands to push changes after editing files
+
+git add .
+git commit -m "Describe your changes"
+git push
+
+# Optional: Check status of files
+git status
+
+# Optional: See commit history
+git log
